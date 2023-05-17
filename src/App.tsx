@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, GridItem, HStack, Show } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, Show } from "@chakra-ui/react";
 import { useState } from "react";
 import GameGrid from "./components/GameGrid";
 import GameHeading from "./components/GameHeading";
@@ -22,7 +22,6 @@ function App() {
   //   null
   // );
   const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery);
-
   return (
     <div>
       <Grid
